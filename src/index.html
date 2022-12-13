@@ -11,8 +11,16 @@
   </head>
   <body>
     <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
+      <div class="image">
+        <img src="https://www.icons101.com/icon_ico/id_74303/Minecraft.ico" alt="" onclick="myFunc()">
+        <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+      </div>
     </div>
+    <script>
+      function myFunc(){
+      document.querySelector(".image").style.transform = "scale(2)";
+      }
+    </script>
   </body>
 </html>
